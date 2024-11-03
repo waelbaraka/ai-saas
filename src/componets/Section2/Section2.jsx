@@ -1,8 +1,8 @@
 // Section2.js
 import React from 'react';
 import './Section2.css'; // Import CSS for styling
-import CircleShape from '../assets/circlershape.svg';
-import CircleFlow from '../assets/circlerflow.svg';
+import CircleShape from '../../assets/circlershape.svg';
+import CircleFlow from '../../assets/circlerflow.svg';
 
 const Section2 = () => {
     return (
