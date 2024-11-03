@@ -6,7 +6,6 @@ import HeroSection from './componets/HeroSection/HeroSection'
 import Section2 from './componets/Section2/Section2'
 import Section3 from './componets/Section3/Section3'
 import Section5 from './componets/Section5/Section5'
-import SV from './componets/Services/sv'
 function App() {
 
   return (
@@ -17,7 +16,6 @@ function App() {
     <GuideNav />
     <FAQ />
     <Section5 />
-    <SV />
     <BrandsBuilding />
     <JoinCommunity />
     </>
