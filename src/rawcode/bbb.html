@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+        }
+
+        /* Navbar styles */
+        .navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: transparent;
+  border: none; /* Remove border */
+  box-shadow: none; /* Remove shadow */
+  margin-top: 20px;
+  margin-left: 60px;
+}
+
+       
+
+    
+        .nav-links {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            border: 1px solid white;
+            margin-left: -1px;
+        }
+
+        .nav-links a.active {
+            border: 1px solid white;
+            background-color: transparent;
+        }
+
+       
+
+        
+
+        /* Hero Section */
+        .hero {
+    background-image: url('./Subtract.png');
+    background-size: cover;
+    background-position: bottom right;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start; /* Align items to the top */
+    color: white;
+    text-align: center;
+    position: relative;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 80% 100%, 0 100%);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            margin-left: 50px;
+            padding-left: 20px;
+            top: -40px;
+        }
+
+        .hero-heading {
+          
+             font-family: 'YourDesiredFont';
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  line-height: 1;
+  text-align: left;
+  margin-top: 180px; /* Adjust the margin as needed */
+  margin-right:200px;
+  
+        }
+
+        
+        .hero-heading > span {
+            display: inline-block;
+            vertical-align: top;
+            font-size: 60px;
+        }
+
+       
+
+       
+
+        .copy-email-button {
+            background: linear-gradient(to right, #f06799, #c05cb4);
+            border-radius: 25px;
+            color: white;
+            font-weight: bold;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease-in-out;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            z-index: 2;
+        }
+
+        /* Icon container to handle overflow */
+        .icon-container {
+            position: absolute;
+            bottom: 1px;
+            left: -100px;
+            width: 320px;
+            height: 180px;
+            display: flex; /* Use flexbox to arrange icons side-by-side */
+            justify-content: flex-start; /* Align icons to the left */
+
+        }
+
+        .icon {
+            width: 100%;
+            height: 100%;
+        } 
+        .icon4 {
+            width: 10%;
+            height: 10%;
+        } 
+
+        .button-container {
+  position: relative;
+}
+
+.left-icon {
+  position: absolute;
+  top: -250px; /* Adjust the top position as needed */
+  left: 820px; /* Adjust the left position as needed */
+  width: 100px;
+  height: 100px;
+  opacity: 0.2; /* Adjust the opacity as needed */
+
+}
+        
+
+        .copy-email-button1 {
+            color: white;
+            font-weight: bold;
+            border: none;
+            cursor: pointer;
+            position: absolute;
+            bottom: 140px;
+            right: 220px;
+            z-index: 2;
+        }
+
+        .copy-email-button:hover {
+            background: linear-gradient(to right, #c05cb4, #f06799);
+        }
+        
+       
+        .hero-footer {
+  display: flex;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  flex-direction: row;
+  align-items:end ;
+}
+
+.hero-svg {
+  /* Your SVG styles here */
+  margin-right: 20px;
+  width: 20%;
+  margin-top: 200px;
+
+}
+
+.hero-paragraph {
+  /* Your paragraph styles here */
+
+  width: 400px;
+  margin-top: 200px;
+  text-align: left;
+/* Automate time-consuming tasks, streamline workflows, and reclaim your focus with your own intelligent Al. */
+
+left: calc(50% - 1710.94px/2 + 134.9px);
+top: 2681.58px;
+
+font-family: 'Helvetica Now Display';
+font-style: normal;
+font-weight: 500;
+text-align: justify;
+letter-spacing: -0.015em;
+
+color: rgba(255, 255, 255, 0.64);
+
+
+}
+
+
+
+     
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-links">
+            <img src="./logo.svg" width="5%" height="5%" alt="Icon" >
+
+            <a href="/" class="active">Home</a>
+            <a href="/contact">Contact</a>
+            <a href="/blog">Service</a>
+        </div>
+    </nav>
+   
+    <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-heading">
+            <span>Enhance</span> <span class="diamond-icon">✦</span>
+            <br>
+            <span>Productivity using AI</span>
+            <br>
+            <span>Automation Solutions.</span>
+          </h1>
+          <p>Discover the power of seamless navigation and beautiful design</p>
+        </div>
+        <section>
+            <div class="hero-footer">
+                <img src="./product4.svg" alt="Icon" class="hero-svg">
+              <p class="hero-paragraph">
+                Automate time-consuming tasks, streamline workflows,
+                 and reclaim your focus with your own intelligent Al. 
+             </p>
+            </div>
+          </section>
+    </section>
+
+
+<div class="button-container">
+    <img src="./product3.svg" alt="Icon" class="left-icon">
+    <button class="copy-email-button1">
+      <div class="icon-container">
+        <img src="./product2.svg" alt="Icon" class="icon">
+        <img src="./product.svg" alt="Icon" class="icon">
+      </div>
+    </button>
+  </div>
+
+  <button class="copy-email-button">
+    COPY EMAIL
+  </button>
+
+   
+</body>
+</html>
